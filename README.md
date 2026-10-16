@@ -23,19 +23,30 @@ The model suggests; the seller always has the final word.
 
 ### Fields generated
 
-| Field | Notes |
-|---|---|
-| `title` | Short and descriptive, no invented phrases |
-| `description` | 1–2 sentences, only what is visible in the photo |
-| `color` | Main color |
-| `category` | One value from a closed list |
-| `type_of_clothes` | Shirt, pants, dress, jacket... |
-| `season` | One value from a closed list |
-| `state` | One value from a closed condition scale |
+The output follows the Mano en Mano `Product` model, so it can pre-fill the listing form directly.
 
-When something cannot be determined from the photo, the model returns `unknown` instead of guessing.
+| Field | Type | Notes |
+|---|---|---|
+| `name` | string | Short title (max 60 chars): garment type + color + main feature. No invented phrases |
+| `description` | string | 1–2 sentences, only what is visible in the photos |
+| `category` | enum | One of the marketplace categories (e.g. `Tops/Blusas`, `Vestidos`, `Calzado`) |
+| `subcategory` | enum | Must belong to the chosen category (validated in code) |
+| `style` | enum | `Vintage`, `Casual`, `Formal`, `Boho`, `Urbano`, `Streetwear` |
+| `gender` | enum | `Mujer`, `Hombre`, `Unisex`, `Sin género`, `Neutro`, `Infantil/Bebé` |
+| `brand` | string | Only if a label or logo is clearly visible |
+| `materials` | array | Only if a composition label is visible; otherwise empty |
+| `condition` | enum | `Nuevo con etiqueta`, `Como nuevo`, `Buen estado`, `Con detalles/Usado` |
+| `color` | enum | Main color from the marketplace palette (mapped to hex in code) |
+| `size` | enum | Only if the size label is visible |
+| `productDefects` | string | Visible defects only (stains, pilling, holes, wear); empty if none |
 
-> Output language: English.
+All allowed values live in [`schema.json`](schema.json) (enforced via Ollama's `format` parameter) and [`taxonomy.json`](taxonomy.json) (category/subcategory pairs and color mapping).
+
+When something cannot be determined from the photo, the model returns `unknown` instead of guessing, and the UI leaves that field empty for the seller to fill in.
+
+Fields the AI deliberately does **not** fill: `price`, `isOriginal` (authenticity cannot be verified from a photo), `productHistory`, `deliveryAddress`, `openCategories`.
+
+> Output language: field names are in English; values are in Spanish, the language of the marketplace.
 
 ## Why open-source AI
 
