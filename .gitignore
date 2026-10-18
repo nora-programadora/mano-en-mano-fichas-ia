@@ -19,3 +19,6 @@ Thumbs.db
 
 # Private test photos (keep only the ones you want public in examples/)
 private-photos/
+
+# Windows metadata (WSL)
+*:Zone.Identifier

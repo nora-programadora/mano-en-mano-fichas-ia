@@ -1,0 +1,192 @@
+[
+  {
+    "file": "blusanegra.jpeg",
+    "seconds": 22.4,
+    "result": {
+      "name": "Top negro con volantes",
+      "description": "Top negro con volantes en el escote y la parte inferior. Tiene un cierre con cordón en la espalda.",
+      "category": "Tops/Blusas",
+      "subcategory": "Blusas",
+      "style": "Casual",
+      "gender": "Mujer",
+      "brand": "unknown",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Negro",
+      "size": "unknown",
+      "productDefects": "Volantes deshilachados en algunos lugares, cordón desgastado en el cierre."
+    },
+    "issues": []
+  },
+  {
+    "file": "croptopanimalprint.jpeg",
+    "seconds": 16.9,
+    "result": {
+      "name": "Blusa de manga larga estampada",
+      "description": "Blusa de corte largo, manga larga y estampado de piel de serpiente.",
+      "category": "Tops/Blusas",
+      "subcategory": "Blusas",
+      "style": "Casual",
+      "gender": "Mujer",
+      "brand": "unknown",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Marrón",
+      "size": "unknown",
+      "productDefects": "unknown"
+    },
+    "issues": []
+  },
+  {
+    "file": "croptopblanco.jpeg",
+    "seconds": 15,
+    "result": {
+      "name": "Crop top blanco de manga corta",
+      "description": "Crop top blanco de manga corta con corte ajustado y cuello redondo.",
+      "category": "Tops/Blusas",
+      "subcategory": "Blusas",
+      "style": "Casual",
+      "gender": "Mujer",
+      "brand": "unknown",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Blanco",
+      "size": "unknown",
+      "productDefects": "unknown"
+    },
+    "issues": []
+  },
+  {
+    "file": "croptopmetalico.jpeg",
+    "seconds": 17.1,
+    "result": {
+      "name": "Top negro con detalle plateado",
+      "description": "Top con corte ajustado, mangas cortas y detalle de rayas plateadas.",
+      "category": "Tops/Blusas",
+      "subcategory": "Tops",
+      "style": "Casual",
+      "gender": "Mujer",
+      "brand": "unknown",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Negro",
+      "size": "unknown",
+      "productDefects": "unknown"
+    },
+    "issues": []
+  },
+  {
+    "file": "pantalonbeige.jpeg",
+    "seconds": 15.9,
+    "result": {
+      "name": "Pantalones caqui slim fit",
+      "description": "Pantalones slim fit de corte recto, con cierre de cremallera y botones en el frente.",
+      "category": "Pantalones/Jeans",
+      "subcategory": "Jeans",
+      "style": "Casual",
+      "gender": "Mujer",
+      "brand": "unknown",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Marrón",
+      "size": "unknown",
+      "productDefects": "unknown"
+    },
+    "issues": []
+  },
+  {
+    "file": "pantalonnegro.jpeg",
+    "seconds": 14.9,
+    "result": {
+      "name": "Pantalones negros casuales",
+      "description": "Pantalones de corte recto, manga larga, con cierre frontal.",
+      "category": "Pantalones/Jeans",
+      "subcategory": "Pantalones",
+      "style": "Casual",
+      "gender": "Mujer",
+      "brand": "unknown",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Negro",
+      "size": "unknown",
+      "productDefects": "unknown"
+    },
+    "issues": []
+  },
+  {
+    "file": "sudaderaanimalprint.jpeg",
+    "seconds": 17.7,
+    "result": {
+      "name": "Sudadera Adidas leopardo",
+      "description": "Sudadera de corte regular con cuello tipo varsity y cierre frontal.",
+      "category": "Ropa deportiva",
+      "subcategory": "Sudadera",
+      "style": "Streetwear",
+      "gender": "Mujer",
+      "brand": "Adidas",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Marrón",
+      "size": "unknown",
+      "productDefects": "unknown"
+    },
+    "issues": []
+  },
+  {
+    "file": "topnikeazul.jpeg",
+    "seconds": 15.8,
+    "result": {
+      "name": "Top deportivo azul con estampado Nike",
+      "description": "Top deportivo de corte ajustado, sin mangas, con estampado en diseño geométrico.",
+      "category": "Ropa deportiva",
+      "subcategory": "Top deportivo",
+      "style": "Boho",
+      "gender": "Mujer",
+      "brand": "Nike",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Azul",
+      "size": "unknown",
+      "productDefects": ""
+    },
+    "issues": []
+  },
+  {
+    "file": "topnikenegro.jpeg",
+    "seconds": 17.3,
+    "result": {
+      "name": "Top deportivo negro y gris",
+      "description": "Top deportivo de corte halter con rayas verticales.",
+      "category": "Ropa deportiva",
+      "subcategory": "Top deportivo",
+      "style": "Boho",
+      "gender": "Mujer",
+      "brand": "Nike",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Negro",
+      "size": "unknown",
+      "productDefects": "unknown"
+    },
+    "issues": []
+  },
+  {
+    "file": "vestidoverde.jpeg",
+    "seconds": 15.8,
+    "result": {
+      "name": "Blusa verde con volantes",
+      "description": "Blusa de corte holgada, con un hombro descubierto y volantes en la parte inferior.",
+      "category": "Tops/Blusas",
+      "subcategory": "Blusas",
+      "style": "Casual",
+      "gender": "Mujer",
+      "brand": "unknown",
+      "materials": [],
+      "condition": "Con detalles/Usado",
+      "color": "Verde",
+      "size": "unknown",
+      "productDefects": "unknown"
+    },
+    "issues": []
+  }
+]
