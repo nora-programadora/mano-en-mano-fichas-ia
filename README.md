@@ -7,7 +7,7 @@
 ![Gemma 3](https://img.shields.io/badge/Model-Gemma%203%20(4B)-4285F4)
 ![Ollama](https://img.shields.io/badge/Runs%20on-Ollama-000000)
 
-Built for the **Hacktoberfest Open-Source AI Challenge, Week 2: Side Hustle** · Read the post on DEV: [[POST_URL]] · Demo video: [VIDEO_URL](https://www.youtube.com/watch?v=u4IuFxRxIdQ)
+Built for the **Hacktoberfest Open-Source AI Challenge, Week 2: Side Hustle** · Read the post on DEV: [POST_URL](https://dev.to/noraprogramadora/snap-a-photo-get-a-listing-a-local-gemma-3-listing-generator-for-secondhand-clothes-c17) · Demo video: [VIDEO_URL](https://www.youtube.com/watch?v=u4IuFxRxIdQ)
 
 ![Pre-filled listing form](docs/ss.png)
 
